@@ -1,0 +1,113 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d3d3d3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en una columna vertical */
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: flex-start; /* Coloca el contenido al principio (arriba) */
+    height: 100vh;
+}
+
+/* Container Styles */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 24px;
+    
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Label and Input Styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px; 
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    text-align: center;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.divider {
+   border-top: 2px solid #ddd;
+   margin: 10px 0;
+ }
+ 
+ .datos{
+    background-color: #fff; /* Fondo blanco para la caja */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    width: 300px; /* Ancho fijo de la caja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.datos p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+}
+
+.datos b {
+    color: #4CAF50; /* Color verde para el texto en negrita */
+}
+
+.datos .divider {
+    border-top: 2px solid #ddd; /* Línea divisoria sutil */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+
+
