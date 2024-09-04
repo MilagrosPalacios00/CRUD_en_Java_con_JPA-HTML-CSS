@@ -10,6 +10,6 @@ El objetivo de este proyecto es demostrar el manejo básico de operaciones CRUD 
 
 - **Java**: Lenguaje de programación principal utilizado para el desarrollo de la lógica del negocio y las operaciones CRUD.
 - **JPA (Java Persistence API)**: Utilizado para la gestión y persistencia de datos en la base de datos.
+- **MySQL**: Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar los datos.
 - **HTML**: Lenguaje de marcado utilizado para estructurar el contenido de la interfaz de usuario.
 - **CSS**: Hojas de estilo utilizadas para diseñar y mejorar la presentación de la interfaz de usuario.
-
